@@ -40,6 +40,10 @@ show columns from nombreTabla;
 describe nombreTabla;
 desc nombreTabla;
 
+--* ver la descripcion de una tabla en detalle
+show full columns from nombreTabla;
+
+
 --* Crear una tabla ejemplos
 create table if not exists books (
     book_id int unsigned primary key auto_increment,
